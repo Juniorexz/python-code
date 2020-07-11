@@ -1,0 +1,51 @@
+###################################################################################################################
+####Exemplo que usuário determina os valores
+a = int(input('Entre com o primeiro valor: '))
+b = int(input('Entre com o segundo valor: '))
+print(type(a))
+print(type(b))
+
+
+
+soma = a + b
+subtracao = a - b
+multiplicacao = a *b
+divisao = a / b
+resto = a % b
+print('Soma: {soma}. \nSubtracao: {subtracao}.'
+      '\nMultiplicacao: {multiplicacao}'
+       '\nDivisao: {divisao}'
+        '\nResto: {resto}'.format(soma=soma,subtracao=subtracao,multiplicacao=multiplicacao,divisao=divisao,resto=resto))
+
+############################################################################################################
+
+#################################################################3
+#Exemplo que os valores são determinados
+
+
+a = 1000
+b = 500
+soma = a + b
+subtracao = a - b
+multiplicacao = a *b
+divisao = a / b
+resto = a % b
+Resultado = ('Soma: {soma}. \nSubtracao: {subtracao}.'
+      '\nMultiplicacao: {multiplicacao}'
+       '\nDivisao: {divisao}'
+        '\nResto: {resto}'.format(soma=soma,subtracao=subtracao,multiplicacao=multiplicacao,divisao=divisao,resto=resto))
+
+print(Resultado)
+
+
+
+
+#Se eu colocar input quer dizer que oferece a opção do usuário digitar
+#print('adicao: ' +str(adicao))
+#print('subtracao: ' +str(subtracao))
+#print('multiplicacao:'  +str(multiplicacao))
+#print('divisao:' +str(divisao))
+#print('resto:' +str(resto))
+
+
+
