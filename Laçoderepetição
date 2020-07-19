@@ -1,0 +1,43 @@
+#
+# ##################Percorre de - 0 a 100
+# for x in range(100):
+#     print(x)
+
+#RANGE -  É UTILIZADO PARA LOOP
+
+###################Descobrir se o número é primo#####333
+a  = int(input('Entre com o número: '))
+
+div = 0
+for x in range(1, a+1):
+    resto = a % x
+    print(x, resto)
+    if resto == 0:
+        div += 1
+if div == 2:
+    print('O número {} é primo' .format(a))
+else:
+    print('O número {} não é primo' .format(a))
+
+
+# ##################Descobrir se é primo de 0 a 100###################
+# a = int(input('Entre com um valor: '))
+# for num in range(a+1):
+#     div = 0
+#     for x in range(1, num+1):
+#         resto = num % x
+#         #print(x, resto)
+#         if resto == 0:
+#             div += 1
+#     if div == 2:
+#         print(num)
+##########################################################################################
+################Comando While#############################
+ # valor = int(input('Entre com o valor: '))
+ #    while valor <= 10:
+ #     valor = int(input('Valor inválido. Entre com o valor correto: '))
+ #     print(valor)
+#  a = 0
+# while a <10:
+#     print(a)
+#     a += 1
