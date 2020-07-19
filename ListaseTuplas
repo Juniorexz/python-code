@@ -8,7 +8,7 @@ print(lista_animal[2])
 #print(nova_lista)
 
 
-##########PErcorre e imprime os valores da lista#######
+##########Percorre e imprime os valores da lista#######
 for x in lista_animal:
     print(x)
 
